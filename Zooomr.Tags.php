@@ -11,7 +11,7 @@ class ZooomrTags
   # a_zooomr_api => a ZooomrRestAPI instance
   function ZooomrTags($a_zooomr_api)
   {
-    if (null == a_zooomr_api)
+    if (null == $a_zooomr_api)
     {
       throw new Exception("ZooomrTags requires a ZooomrAPI object");
     }

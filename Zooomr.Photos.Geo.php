@@ -13,7 +13,7 @@ class ZooomrPhotosGeo
   #
   function ZooomrPhotosGeo($a_zooomr_api)
   {
-    if ($a_zooomr_api == nil)
+    if ($a_zooomr_api == null)
     {
       throw new Exception("ZooomrPhotosGeo requires a ZooomrAPI object");
     }

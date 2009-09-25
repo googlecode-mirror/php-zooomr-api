@@ -21,7 +21,7 @@ class ZooomrPhotosLicense
   #
   function ZooomrPhotosLicense($a_zooomr_api)
   {
-    if (a_zooomr_api == null)
+    if ($a_zooomr_api == null)
     {
       throw new Exception("ZooomrPhotosLicense requires a ZooomrAPI object");
     }
