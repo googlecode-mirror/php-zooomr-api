@@ -263,6 +263,7 @@ class ZooomrPhotos
   # * query => query string
   #
   # Optional Parameters:
+  # * user_id => search for photos from user_id
   # * extras => extra info to return
   # * page => page of results you want
   # * per_page => how many results per page
@@ -272,7 +273,7 @@ class ZooomrPhotos
     $method = 'zooomr.photos.search';
     
     $required_params = array('query');
-    $optional_params = array('extras', 'page', 'per_page');
+    $optional_params = array('extras', 'page', 'per_page', 'user_id');
     
     $this->zooomr->params_are_valid($required_params, $optional_params, $a_parameter_hash);
     
