@@ -12,7 +12,7 @@ class ZooomrFavorites
   #
   function ZooomrFavorites($a_zooomr_api)
   {
-    if (null == a_zooomr_api)
+    if (null == $a_zooomr_api)
     {
       throw new Exception("ZooomrFavorites requires a ZooomrAPI object");
     }

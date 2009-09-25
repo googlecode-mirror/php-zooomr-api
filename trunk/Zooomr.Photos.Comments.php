@@ -13,7 +13,7 @@ class ZooomrPhotosComments
   #
   function ZooomrPhotosComments($a_zooomr_api)
   {
-    if (null == a_zooomr_api)
+    if (null == $a_zooomr_api)
     {
       throw new Exception("ZooomrPhotosComments requires a ZooomrAPI object");
     }
